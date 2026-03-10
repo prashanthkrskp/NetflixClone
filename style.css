@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+nav {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60%;
+    padding: 50px;
+    padding-top: 60px;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0));
+}
+
+#lang {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.sign {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/image/back2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url("/image/back2.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.textcontainer {
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+    height: 80vh;
+}
+
+.uppertext {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.small {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#imail {
+    width: 350px;
+    height: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7));
+    border: 1px solid rgb(161, 161, 161);
+    margin: 10px;
+}
+
+#btn {
+    width: 200px;
+    height: 40px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-weight: bolder;
+}
+
+.inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curve svg{
+  display:block;
+  width:100vw;
+  height:120px;
+}
+.curve path{
+  fill:black;
+  border-top:#e50914;
+  stroke-width:4;
+}
+.curve path{
+  fill:black;
+  border-top:#e50914;
+  stroke-width:4;
+  filter: drop-shadow(0 0 8px #e50914);
+}
+.curve{
+    position: absolute;
+    bottom: -15px;
+}
+.section{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    width: 100vw;
+}
+.card{
+    display: flex;
+    overflow-x: scroll;
+}
+.topten {
+    margin: 30px;
+    border: 2px   white;
+    border-radius: 20px;
+}
+.topten:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.1);
+}
